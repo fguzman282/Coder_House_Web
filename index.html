@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- vista para celulares -->
+    <title>Argentina Racing Parts</title><!-- contenido del título de nuestro sitio -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<header>
+    <img src="img/logos_icons/logo_icon.png" alt="Argentina Racing Parts Logo" class="header-logo">
+    <h1>Argentina Racing Parts</h1>
+</header>
+<!-- Los nombres de los archivos en minúscula no espaciados "carpeta-imagenes carpeta_imagenes"      -->
+<!-- WIP por ahí le metemos un par de solapitas más, vamos a iterar las que tenemos hoy y luego vemos.-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alternar navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link" href="./pages/productos.html">Productos</a>
+          <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+          <a class="nav-link" href="./pages/contacto.html">contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<main> 
+<!-- WIP Acá quiero que sea un carrete ofertas, nuevos, relevantes.-->
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/race_event_0.jpg" class="d-block w-100" alt="Race Event 1">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/race_event_1.jpg" class="d-block w-100" alt="Race Event 2">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/race_event_2.jpg" class="d-block w-100" alt="Race Event 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+<section class="section-productos">
+    <h2 style="text-align: center; margin-bottom: 30px; width: 100%;">Productos Destacados</h2>
+    
+    <a href="./pages/belak-series2.html" class="text-decoration-none" style="color: inherit;">
+      <div class="card mb-3 card-new">
+          <div class="new-badge">Nuevo</div>
+          <img src="../img/wheels/belak_14_8.png" class="card-img-top" alt="Producto 1">
+          <div class="card-body">
+            <h5 class="card-title">Belak Series 2 14x8 Drag Wheel</h5>
+            <p class="card-text">Desde 250 $</p>
+          </div>
+        </div>
+    </a>
+
+    <div class="card mb-3 card-new">
+        <div class="new-badge">Nuevo</div>
+        <img src="../img/cloth/shirt_1.png" class="card-img-top" alt="T-Shirt 1">
+        <div class="card-body">
+          <h5 class="card-title">Argentina Racing Parts T-Shirt</h5>
+          <p class="card-text">Desde 35 $</p>
+        </div>
+      </div>
+
+    <div class="card mb-3 card-new">
+        <div class="new-badge">-15%</div>
+        <img src="../img/cloth/Beanies.png" class="card-img-top" alt="Beanie">
+        <div class="card-body">
+          <h5 class="card-title">Racing Parts Beanie</h5>
+          <p class="card-text">Desde 30 $</p>
+        </div>
+      </div>
+
+    <div class="card mb-3 card-new">
+        <div class="new-badge">Nuevo</div>
+        <img src="../img/ecus/ecu_1.png" class="card-img-top" alt="Fueltech 700">
+        <div class="card-body">
+          <h5 class="card-title">Fueltech 700</h5>
+          <p class="card-text">Desde 1200 $</p>
+        </div>
+      </div>
+
+</section>
+
+</main>
+<footer>
+    <p>&copy; 2024 Argentina Racing Parts. Todos los derechos reservados. </p>
+</footer>
+<a href="https://wa.me/yournumber" class="whatsapp-sticky" target="_blank">
+    <img src="img/logos_icons/whatsapp_icon.png" alt="WhatsApp">
+</a>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
